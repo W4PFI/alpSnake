@@ -1,0 +1,9 @@
+# Keep line endings as LF in the repo (shell scripts break with CRLF).
+* text=auto eol=lf
+*.sh text eol=lf
+*.command text eol=lf
+# Binary assets: never diff or convert.
+*.bin binary
+*.png binary
+*.ttf binary
+*.UCE binary

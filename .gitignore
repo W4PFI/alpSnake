@@ -1,0 +1,9 @@
+/build/
+/dist/
+.DS_Store
+._*
+__pycache__/
+*.pyc
+/alp-probe/
+*.UCE
+/tests/out/
