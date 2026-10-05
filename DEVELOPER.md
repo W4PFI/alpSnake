@@ -623,8 +623,7 @@ This is how the choppy-audio and jitter problems were understood.
 
 ### The probe build
 
-Run `ALP_SNAKE_PROBE=1 ./build.sh`, or double-click
-`build-probe-and-copy.command`. It builds `ALP-Snake-Probe.UCE`, which logs
+Run `ALP_SNAKE_PROBE=1 ./build.sh`. It builds `ALP-Snake-Probe.UCE`, which logs
 these to `save/probe.log`:
 - every libretro call;
 - environment request;

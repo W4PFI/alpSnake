@@ -112,7 +112,7 @@ Hold both flippers on the attract, Ready or Game Over screen for a readout of
 the measured frame rate, how much sound the cabinet accepted, and the slowest
 frame and redraw of the last two seconds.
 
-`build-probe-and-copy.command` builds a separate diagnostic UCE that logs what
+`ALP_SNAKE_PROBE=1 ./build.sh` builds a separate diagnostic UCE that logs what
 Retroplayer does to the game into its save area (`save/probe.log`).
 
 ## How it works
