@@ -23,6 +23,14 @@ sources this project is built on.
 *Playfield images are rendered by the test suite (`tests/run_tests.sh`), not
 photographed.*
 
+## Just want to play?
+
+Download `ALP-Snake.UCE` from the
+[latest release](https://github.com/W4PFI/alpSnake/releases/latest), copy it
+to the root of your AddOn USB stick, and open **BYOG → AddOn → ALP Snake** on
+the cabinet. No build tools needed. (Details in
+[Install on the cabinet](#install-on-the-cabinet).)
+
 ## Play
 
 | Cabinet control | Game action |
@@ -196,7 +204,8 @@ compiler and writes screenshots to `tests/out/`. See
 
 1. Use an existing FAT32 AddOn USB drive, or format a spare drive as one
    **MBR/FAT32** volume. Formatting erases it.
-2. Copy `dist/ALP-Snake.UCE` to the **root** of the drive.
+2. Copy `ALP-Snake.UCE` (downloaded from the releases page, or built into
+   `dist/`) to the **root** of the drive.
 3. Eject the drive on the Mac, insert it in the pinball cabinet, and open
    **BYOG → AddOn → ALP Snake**.
 4. The centered mode can show the cabinet's blue streak background around the
